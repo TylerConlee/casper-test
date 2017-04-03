@@ -3,4 +3,4 @@ dependencies:
     - git clone git://github.com/casperjs/casperjs.git
 test:
   override:
-    - ./casperjs/bin/casperjs test my-test.js
+    - ./casperjs/bin/casperjs test my-test.js --xunit=$CIRCLE_TEST_REPORTS/casperjs/log.xml
