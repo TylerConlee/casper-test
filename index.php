@@ -5,7 +5,7 @@
     <title>Sample Page</title>
 </head>
 <body>
-<input type="button" name="click" title="Click" onclick="showText();" value="Click the button" />
+<input type="button" name="click" id="button" title="Click" onclick="showText();" value="Click the button" />
 <div id="test"></div>
 <script>
 function showText(){
