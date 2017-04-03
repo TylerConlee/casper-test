@@ -1,8 +1,3 @@
-<?php
-
-echo
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +6,10 @@ echo
 </head>
 <body>
 <input type="button" name="click" title="Click" onclick="showText();" value="Click the button" />
+<script>
+function showText(){
+	window.location("./test.php");
+}
+</script>
 </body>
 </html>
-<?php ; ?>
