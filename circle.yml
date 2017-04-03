@@ -5,4 +5,4 @@ dependencies:
     - ln -sf `pwd`/bin/casperjs /usr/local/bin/casperjs
 test:
   override:
-    - casperjs test my-test.js
+    - ./casperjs/bin/casperjs test my-test.js
