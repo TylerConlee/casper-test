@@ -1,0 +1,7 @@
+test:
+	pre:
+		- git clone git://github.com/casperjs/casperjs.git
+		- cd casperjs
+		- ln -sf `pwd`/bin/casperjs /usr/local/bin/casperjs
+	override:
+		- casperjs test my-test.js

@@ -6,9 +6,11 @@
 </head>
 <body>
 <input type="button" name="click" title="Click" onclick="showText();" value="Click the button" />
+<div id="test"></div>
 <script>
 function showText(){
-	window.location.replace("./test.php");
+	var div = document.getElementById('test');
+	div.innerHTML = div.innerHTML + 'Some Text';
 }
 </script>
 </body>
