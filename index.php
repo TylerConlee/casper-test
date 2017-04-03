@@ -8,7 +8,7 @@
 <input type="button" name="click" title="Click" onclick="showText();" value="Click the button" />
 <script>
 function showText(){
-	window.location("./test.php");
+	window.location.replace("./test.php");
 }
 </script>
 </body>
